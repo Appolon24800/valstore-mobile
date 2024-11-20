@@ -51,7 +51,7 @@ class RiotService {
   }
 
   static String getStoreLink(String uuid, String region) =>
-      "https://pd.$region.a.pvp.net/store/v3/storefront/$uuid/";
+      "https://pd.$region.a.pvp.net/store/v4/storefront/$uuid/";
 
   static Future<String> getEntitlements() async {
     await saveCookies();
